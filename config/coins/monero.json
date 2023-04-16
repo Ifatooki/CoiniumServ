@@ -1,0 +1,11 @@
+{
+  "name": "MONERO",
+  "symbol": "XMR",
+  "algorithm": "XMR",
+  "site": "https://www.getmonero.org/",
+  "blockExplorer": {
+    "block": "https://localmonero.co/blocks",
+    "tx": "https://localmonero.co/blocks",
+    "address": "https://explorer.dash.org/address/"
+  }
+}

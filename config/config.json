@@ -3,7 +3,7 @@
         "name": "CoiniumServ.com",
         "nodes": [
             {
-                "location": "eu",
+                "location": "us",
                 "address": "127.0.0.1",
                 "default": true
             }
@@ -16,7 +16,7 @@
     "website": {
         "enabled": true,
         "bind": "",
-        "port": 80,
+        "port": 81,
         "template": "default",
         "feed": "",
         "backend": {

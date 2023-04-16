@@ -1,21 +1,21 @@
 {
-	"enabled": false,
-	"coin": "stronghands.json",
+	"enabled": true,
+	"coin": "monero.json",
 	"daemon": {
 		"host": "127.0.0.1",
-		"port": 6902,
-		"username": "RPCUSER",
-		"password": "RPCPASSWORD"
+		"port": 18081,
+		"username": "",
+		"password": ""
 	},
 	"meta": {
         "motd": "Welcome to bit2pool, enjoy your stay! - http://www.bit2pool.com/",
         "txMessage": "http://www.bit2pool.com/"
      },
-	 "wallet" : {
-        "address":  "Pool wallet address here"
-    },
+	"wallet": {
+		"address": "46EzhmrbbAgYGYsbdn5LYH41ajdPhzW95ecFqNE8ySvtPLMmbeRhvEgQGYWajD6vgnTJ8m6mEpPa53UmarV9v7x34NbMjNt"
+	},
 	"rewards":  [
-        {"Reward address for pool OP": 1} 
+		{ "46EzhmrbbAgYGYsbdn5LYH41ajdPhzW95ecFqNE8ySvtPLMmbeRhvEgQGYWajD6vgnTJ8m6mEpPa53UmarV9v7x34NbMjNt": 1 } 
     ],
 	"banning": {
         "enabled": true,
@@ -27,7 +27,7 @@
 	"payments": {
 		"enabled": true,
         "interval": 1800,
-		"minimum": 0.01
+		"minimum": 0.001
 	},
 	 "miner":  {
         "validateUsername": true,
@@ -39,8 +39,8 @@
     },
 	"stratum": {
 		"enabled": true,
-		"bind": "0.0.0.0",
-		"port": 3338,
+		"bind": "127.0.0.1",
+		"port": 9333,
 		"diff": 16,
         "vardiff": {
             "enabled": true,
